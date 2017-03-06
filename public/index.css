@@ -1,0 +1,25 @@
+body{
+	background: url( 'http://s.nownews.com/5c/71/5c717085fbffc29d2abb8a834880e6b0.jpg ') repeat-x;
+	background-attachment: fixed;
+
+}
+
+h1 {
+	font-family: 'Pangolin', 'Cooper Black', cursive !important;
+	font-size: 100px;
+	padding:0px 100px 20px 200px;
+	color: #6A3127;
+}
+
+div{
+	font-family: 'Caveat Brush', cursive;
+}
+
+p{
+	font-size: 30px;
+	font-weight: bold;
+	word-spacing: 0.4em;
+	padding:10px 300px ;
+
+}
+

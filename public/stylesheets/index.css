@@ -1,0 +1,15 @@
+body{
+	background: url( 'http://mepopedia.com/~css104-2c/midterm/midterm-1035445018/images/ART_desktop_E_1280_960_snk.jpg ') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Pangolin', 'Cooper Black', cursive;
+	font-size: 100px;
+	padding:0px 100px 20px 200px;
+}
+
+div{
+	font-family: 'Caveat Brush', cursive;
+}

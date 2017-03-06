@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		title= 'Register'
+		link(href='/index.css', rel='stylesheet')
+		link(href='https://fonts.googleapis.com/css?family=Barrio|Caveat+Brush|Pangolin' rel='stylesheet')
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	body
+		div(style='float:left;margin:10px;font-size: 30px;')
+			a(href='/') Home
+	
+		div(style='float:right;font-size: 30px;')
+				a(href='/users/signin', style='margin:10px;') Log In
+				a(href='/users/forget', style='margin:10px;') Forgot password	
+		
+		div(style='padding:50px;')
+			form(name="login", action="/apis/login", method="post")
+				h1 Register
+				div
+					p
+						label(style='padding-right:50px') Username or e-mail
+						input(type="text", name="user", placeholder='username@example.com')
+					p
+						label(style='padding-right:110px')  password
+						input(type="password", name="passwd")
+				p
+					span(style='padding-right:260px')
+					input(type="submit", name="btn btn-primary" value="Sign up")
